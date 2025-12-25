@@ -29,7 +29,7 @@ const BeniSuefHistory = () => {
                   الموطن الأصلي - إقليم مريوط
                 </h3>
                 <p className="family-body text-base text-muted-foreground leading-relaxed">
-                  تبدأ الرحلة من إقليم <span className="text-primary font-semibold">مريوط</span> "من البحيرة حتى الحدود الليبية الآن" - الموطن الأصلى والرئيسى عند دخول الهنادى القطر المصرى من جهة الغرب العربى. قام السلطان <span className="text-primary font-semibold">سليم الأول</span> بإقطاع الهنادى هذه المنطقة ووضعها تحت نفوذهم بفرمان رسمى.
+                  تبدأ الرحلة من إقليم <span className="text-primary font-semibold">مريوط</span> "من البحيرة حتى الحدود الليبية الآن" - الموطن الأصلى والرئيسى عند دخول الهنادى القطر المصرى من جهة الغرب العربى , قام السلطان <span className="text-primary font-semibold">سليم الأول</span> بإقطاع الهنادى هذه المنطقة ووضعها تحت نفوذهم بفرمان رسمى . 
                 </p>
               </div>
             </div>
@@ -48,11 +48,11 @@ const BeniSuefHistory = () => {
                   إقطاع محمد علي باشا
                 </h3>
                 <p className="family-body text-base text-muted-foreground leading-relaxed mb-4">
-                  قام الوالى <span className="text-amber-600 font-semibold">محمد على</span> بإقطاع مشايخ الهنادى مناطق أخرى لتعميرها وإصلاحها وتكون تحت مظلة القلعة كالتزام (جباية "ضرائب" وحبوب).
+                  قام الوالى <span className="text-amber-600 font-semibold">محمد على</span> بإقطاع مشايخ الهنادى مناطق أخرى لتعميرها وإصلاحها وتكون تحت مظلة القلعة كالتزام (جباية "ضرائب" وحبوب)
                 </p>
                 <div className="p-4 bg-muted/50 rounded-lg border-r-4 border-amber-600">
                   <p className="family-body text-sm text-muted-foreground">
-                    وُضعت منطقة كبيرة في مديرية بني سويف تحت نفوذ الأسرة البدادية بزعامة شيخ العرب <span className="text-amber-600 font-semibold">عبدالسميع البدادى</span> ألمع مشايخ عرب الهنادى وأذيعهم صيتاً.
+                    وُضعت منطقة كبيرة في مديرية بني سويف تحت نفوذ الأسرة البدادية بزعامة شيخ العرب <span className="text-amber-600 font-semibold">عبدالسميع البدادى</span> ألمع مشايخ عرب الهنادى وأذيعهم صيتاً .
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     {['كوم أبو راضي', 'صفط', 'ونا', 'شرق أبو يط', 'أبو صير', 'ميدوم'].map((area) => (
@@ -79,10 +79,10 @@ const BeniSuefHistory = () => {
                   الصراع وفرمان الخروج
                 </h3>
                 <p className="family-body text-base text-muted-foreground leading-relaxed mb-4">
-                  بعد وفاة زعيمهم شيخ العرب <span className="text-red-600 font-semibold">عبدالسميع البدادى</span>، بدأت أهالي هذه المناطق ينتابها التهور والجنون وأخذتهم الجرأة المتهورة وبدأت في إثارة بعض المشاكل التي كان واقعها "مرير" عليهم.
+                  بعد وفاة زعيمهم شيخ العرب   <span className="text-red-600 font-semibold">عبدالسميع البدادى</span> بدأت أهالي هذه المناطق ينتابها التهور والجنون وأخذتهم الجرأة المتهورة وبدأت في إثارة بعض المشاكل التي كان واقعها "مرير" عليهم .
                 </p>
                 <p className="family-body text-base text-muted-foreground leading-relaxed">
-                  اجتاح فرسان الأسرة مناطقهم وتحولت مناطقهم إلى "جحيم" بفعل النزعة القبلية شديدة التعقيد للأسرة البدادية. وصلت هذه الأخبار إلى <span className="text-red-600 font-semibold">الخديوي إسماعيل</span> فأصدر فرماناً ودعوة للبدادية بالكامل بالخروج من بني سويف.
+                  اجتاح فرسان الأسرة مناطقهم وتحولت مناطقهم إلى "جحيم" بفعل النزعة القبلية شديدة التعقيد للأسرة البدادية , وصلت هذه الأخبار إلى <span className="text-red-600 font-semibold">الخديوي إسماعيل</span> فأصدر فرماناً ودعوة للبدادية بالكامل بالخروج من بني سويف .
                 </p>
               </div>
             </div>
@@ -101,19 +101,19 @@ const BeniSuefHistory = () => {
                   الخروج والاستقرار النهائي
                 </h3>
                 <p className="family-body text-base text-muted-foreground leading-relaxed mb-4">
-                  خرجت الأسرة تحت مظلة القانون القبلي وفروسية منهم ومراعاتهم لعاداتهم وتقاليدهم القبلية الراقية وهو <span className="text-primary font-semibold">"من يجور يرحل"</span> وسُر الخديوي بذلك.
+                  خرجت الأسرة تحت مظلة القانون القبلي وفروسية منهم ومراعاتهم لعاداتهم وتقاليدهم القبلية الراقية وهو <span className="text-primary font-semibold">"من يجور يرحل"</span> وسُر الخديوي بذلك .
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="p-4 bg-muted/50 rounded-lg border-r-4 border-primary">
                     <h4 className="family-title text-lg text-foreground mb-2">العياط (سنة واحدة)</h4>
                     <p className="family-body text-sm text-muted-foreground">
-                      خيّرهم الخديوي بإقطاع مناطق بمركز العياط (محافظة الجيزة حالياً)، لكن قربها من الحضر أثار ضيق زعيمهم شيخ العرب <span className="text-primary font-semibold">إبراهيم بك عبدالسميع البدادى</span>.
+                      خيّرهم الخديوي بإقطاع مناطق بمركز العياط (محافظة الجيزة حالياً) ، لكن قربها من الحضر أثار ضيق زعيمهم شيخ العرب <span className="text-primary font-semibold">إبراهيم بك عبدالسميع البدادى</span>
                     </p>
                   </div>
                   <div className="p-4 bg-muted/50 rounded-lg border-r-4 border-primary">
                     <h4 className="family-title text-lg text-foreground mb-2">محافظة الشرقية (الاستقرار)</h4>
                     <p className="family-body text-sm text-muted-foreground">
-                      نزل بعد ذلك لمحافظة الشرقية بمراكز (أولاد صقر، كفر صقر، فاقوس، بلبيس) وهي المحافظات المتواجد بها الأسرة إلى الآن. ولم يبقَ أحد من الأسرة في بني سويف.
+                      نزل بعد ذلك لمحافظة الشرقية بمراكز  (أولاد صقر ، كفر صقر ، فاقوس ، بلبيس) وهي الأماكن المتواجد بها الأسرة إلى الآن , ولم يبقَ أحد من الأسرة في بني سويف .
                     </p>
                   </div>
                 </div>

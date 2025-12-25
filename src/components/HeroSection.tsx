@@ -20,7 +20,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="family-body text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-            أكبر بطون قبيلة الهنادي ، ولنا في قمة العز رايات ، جذورنا جبال راسيات , نحن تراث وتاريخ عريق يمتد عبر الأجيال ، وروابط محبة تجمعنا تحت لواء واحد حيث عرين البدادية           </p>
+            أكبر بطون قبيلة الهنادي ، ولنا في قمة العز رايات ، أصولنا جبال راسيات , نحن تراث وتاريخ عريق يمتد عبر الأجيال ، وروابط محبة تجمعنا تحت لواء واحد حيث عرين البدادية           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             {/* <Button size="lg" className="btn-family-primary text-lg px-8 py-3 rounded-full font-cairo font-semibold shadow-family">

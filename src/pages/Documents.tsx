@@ -16,6 +16,9 @@ import bookPageabdaha from "@/assets/gallery/abdahah.jpg";
 import badady from "@/assets/gallery/bdadyajpg-artguru.png";
 import nishan from "@/assets/gallery/10601210.jpg";
 import bdadybook from "@/assets/gallery/shafee11.jpg";
+import invit from "@/assets/gallery/invint.jpeg";
+import mahgoub from "@/assets/gallery/magghoub.jpeg";
+import rateb from "@/assets/gallery/rateb.jpeg";
 const Documents = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   
@@ -115,9 +118,27 @@ const Documents = () => {
       category: "وثائق تاريخية",
       icon: ScrollText,
     },
-
-
-
+{
+      id: 14,
+      image: invit,
+      title: "      دعوة ملكية رسمية من الملك فاروق لحضرة شيخ العرب حسين بك عبد السميع لتناول الشاى فى سراى عابدين يوم الجمعة 30 يوليو 1937 م ",
+    category: "دعوات ملكية",
+      icon: Crown,
+    },
+{
+      id: 15,
+      image: mahgoub,
+      title: "       كناب تاريخى يوضح أشهر العزب وهما عزبة محجوب عبد السميع وعزبة موسى الطحاوى عبد السميع   ",
+    category: "كتب تاريخية",
+    icon: ScrollText,
+    },
+{
+      id: 16,
+      image: rateb,
+      title: "       كناب تاريخى يوضح الأعضاء المنتخبون عن مديرية الشرقية من بينهم حضرة شيخ العرب راتب حسين السيد عبد السميع   ",
+    category: "كتب تاريخية",
+    icon: ScrollText,
+    },
   ];
 
   return (
