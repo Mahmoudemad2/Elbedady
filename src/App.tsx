@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Search from "./pages/Search";
 import FamilyTreePage from "./pages/FamilyTreePage";
 import Documents from "./pages/Documents";
+import ContactSection from './pages/ContactSection';
 import NotFound from "./pages/NotFound";
 import History from './components/BadadiaOrigins'
 import FamilyGallery from './components/FamilyGallery'
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/documents" element={<Documents />} />
           <Route path="/history" element={<History />} />
 <Route path="/gallery" element={<FamilyGallery />} />
+<Route path="/contact" element={<ContactSection />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

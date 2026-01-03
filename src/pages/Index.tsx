@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import FamilyHistory from "@/components/FamilyHistory";
 import FamilyStages from "@/components/FamilyStages";
 import BadadiaOrigins from "@/components/BadadiaOrigins";
+import ContactSection from '@/pages/ContactSection';
 import BeniSuefHistory from "@/components/BeniSuefHistory";
 import GreatAncestor from "@/components/GreatAncestor";
 import IbrahimHero from "@/components/IbrahimHero";
