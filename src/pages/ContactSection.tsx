@@ -76,7 +76,7 @@ const ContactSection = () => {
     <>
       <Navigation />
       
-    <section id="contact" className="py-20 px-4 bg-gradient-to-b from-background to-muted/30" dir="rtl">
+    <section id="contact" className=" py-20 px-4 bg-gradient-to-b from-background to-muted/30" dir="rtl">
       <div className="container mx-auto max-w-6xl">
         {/* Header */}
         <div className="text-center mb-12">
@@ -95,7 +95,7 @@ const ContactSection = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary/50 mx-auto rounded-full mt-4" />
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-10">
+        <div className="grid lg:grid-cols-2 gap-10  inline-flex items-center justify-center">
           {/* Contact Form */}
           <Card className="bg-card/80 backdrop-blur-sm border-primary/20 shadow-xl">
             <CardContent className="p-8">
@@ -104,7 +104,7 @@ const ContactSection = () => {
                 أرسل رسالة
               </h3>
               
-              <form onSubmit={handleSsubmit} className="space-y-5">
+              <form onSubmit={handleSsubmit} className="space-y-5" >
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-foreground flex items-center gap-2">
                     <User className="w-4 h-4 text-muted-foreground" />
