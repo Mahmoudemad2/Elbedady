@@ -7,7 +7,11 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
 import Navigation from "@/components/Navigation";
+import SuccessMessage from "@/pages/SuccessMessage";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 const ContactSection = () => {
+    const [state, handleSsubmit] = useForm("xaqqyplj");
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
@@ -16,7 +20,9 @@ const ContactSection = () => {
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+ if (state.succeeded) {
+      return <SuccessMessage />;
+  }
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
       ...prev,
@@ -26,7 +32,7 @@ const ContactSection = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+  
     if (!formData.name.trim() || !formData.message.trim()) {
       toast({
         title: "خطأ",
@@ -51,26 +57,21 @@ const ContactSection = () => {
   };
 
   const contactInfo = [
-    {
-      icon: Phone,
-      title: "الهاتف",
-      value: "+20 XXX XXX XXXX",
-      description: "متاح على مدار الساعة"
-    },
+
     {
       icon: Mail,
       title: "البريد الإلكتروني",
-      value: "info@albadady.com",
+      value: "elbedadyfamily@gmail.com",
       description: "نرد خلال 24 ساعة"
     },
     {
       icon: MapPin,
       title: "الموقع",
       value: "جمهورية مصر العربية",
-      description: "بني سويف - الشرقية - القليوبية"
+      description: "كفر صقر  - الشرقية - جمهورية مصر العربية  "
     }
   ];
-
+ 
   return (
     <>
       <Navigation />
@@ -103,7 +104,7 @@ const ContactSection = () => {
                 أرسل رسالة
               </h3>
               
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSsubmit} className="space-y-5">
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-foreground flex items-center gap-2">
                     <User className="w-4 h-4 text-muted-foreground" />
@@ -133,6 +134,11 @@ const ContactSection = () => {
                       placeholder="example@email.com"
                       className="h-12"
                     />
+                     <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
                   </div>
 
                   <div className="space-y-2">
@@ -164,6 +170,11 @@ const ContactSection = () => {
                     rows={5}
                     required
                   />
+                     <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
                 </div>
 
                 <Button 

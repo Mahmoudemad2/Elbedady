@@ -7,10 +7,11 @@ import Index from "./pages/Index";
 import Search from "./pages/Search";
 import FamilyTreePage from "./pages/FamilyTreePage";
 import Documents from "./pages/Documents";
-import ContactSection from './pages/ContactSection';
+import ContactSection from './pages/ContactSection'
 import NotFound from "./pages/NotFound";
 import History from './components/BadadiaOrigins'
 import FamilyGallery from './components/FamilyGallery'
+import SuccessMessage from "./pages/SuccessMessage";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/history" element={<History />} />
 <Route path="/gallery" element={<FamilyGallery />} />
 <Route path="/contact" element={<ContactSection />} />
+ <Route path="/success" element={<SuccessMessage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
