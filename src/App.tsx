@@ -12,6 +12,7 @@ import NotFound from "./pages/NotFound";
 import History from './components/BadadiaOrigins'
 import FamilyGallery from './components/FamilyGallery'
 import SuccessMessage from "./pages/SuccessMessage";
+import Articles from "./pages/article";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -29,6 +30,7 @@ const App = () => (
 <Route path="/gallery" element={<FamilyGallery />} />
 <Route path="/contact" element={<ContactSection />} />
  <Route path="/success" element={<SuccessMessage />} />
+ <Route path="/article" element={<Articles />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

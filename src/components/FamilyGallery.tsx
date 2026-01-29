@@ -42,6 +42,7 @@ import  nabiil from "@/assets/gallery/nabil2.jpg";
 import  alaaa from "@/assets/gallery/allaa.jpg";
 import  ahmedbrkat from "@/assets/gallery/barakat.jpg";
 import  mohamenabil from "@/assets/gallery/mohamenabil.jpg";
+import  samh from "@/assets/gallery/sameh.jpeg";
 import Navigation1 from "./Navigation";
 const FamilyGallery = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -369,9 +370,19 @@ const FamilyGallery = () => {
       image:nabiil,
 
 
+  },
+
+{
+      id: 30,
+      title: "     شيخ العرب سامح عبد الوهاب البدادى ",
+      category: "gatherings",
+      year: "القرن  الواحد و العشرين",
+      description:
+         "           راعي الفزعة لا يُرد له طلب ؛ لأنه الشخص الذي يسبق فعله قوله في الأزمات , شيخ العرب سامح عبد الوهاب السعدي سلطان  هو حفيد عبد الله بك عبد السميع ابن ابراهيم بك عبد السميع شهيد معركة التل الكبير                ",
+      image:samh,
+
+
   }
-
-
 
   ];
 

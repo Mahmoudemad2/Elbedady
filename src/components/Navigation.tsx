@@ -10,7 +10,7 @@ import {
   Search,
   TreePine,
   ScrollText,
-  Heart
+  Heart,BookOpen
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
@@ -31,6 +31,7 @@ const Navigation = () => {
       isRoute: true,
     },
     { name: "البحث", href: "/search", icon: Search, isRoute: true },
+    { name: 'المقالات', href: '/article', icon: BookOpen, isRoute: true },
     { name: "تاريخ العائلة", href: "/history", icon: Users, isRoute: true },
     { name: "الصور", href: "/gallery", icon: Image, isRoute:true },
     { name: "الأحداث", href: "/events", icon: Calendar, isRoute: true },

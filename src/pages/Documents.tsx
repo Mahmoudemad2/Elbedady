@@ -19,6 +19,7 @@ import bdadybook from "@/assets/gallery/shafee11.jpg";
 import invit from "@/assets/gallery/invint.jpeg";
 import mahgoub from "@/assets/gallery/magghoub.jpeg";
 import rateb from "@/assets/gallery/rateb.jpeg";
+import kharita from "@/assets/gallery/kharita.jpeg";
 const Documents = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   
@@ -139,6 +140,17 @@ const Documents = () => {
     category: "كتب تاريخية",
     icon: ScrollText,
     },
+
+
+{
+      id: 17,
+      image: kharita ,
+      title: "      خريطة سنة 1914 توضح احدى عزب عبد الله بك عبد السميع تابعة لقرية شيط الهوى وعزبة محجوب عبد السميع  ",
+    category: "خريطة تاريخية تاريخية",
+    icon: ScrollText,
+    },
+
+
   ];
 
   return (
