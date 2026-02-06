@@ -24,6 +24,7 @@ import HanadiTribe from "@/components/HanadiTribe";
 import { Swords, Sword, Shield, Crown, Star } from "lucide-react";
 import { Link} from "react-router-dom";
 import logo from "../assets/gallery/logo1-bedady.png";
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background" dir="rtl">

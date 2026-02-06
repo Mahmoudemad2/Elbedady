@@ -61,7 +61,7 @@ const Articles = () => {
       date: "20 يناير 2024",
       category: "شخصيات",
       icon: User,
-      image: "/src/assets/gallery/gmal.jpeg",
+      image: "src/assets/gallery/gmal.jpeg",
     },
     {
       id: 2,
@@ -187,13 +187,18 @@ const Articles = () => {
         </div>
 
         {/* Decorative Icons */}
-
+        <div className="absolute top-24 left-8 opacity-10 animate-pulse">
+        
+        </div>
+        <div className="absolute top-32 right-8 opacity-10 animate-pulse" style={{ animationDelay: '0.5s' }}>
+        
+        </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Ornamental Top Border */}
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="h-[2px] w-24 bg-gradient-to-r from-transparent via-primary to-primary" />
-            <BookOpen className="text-primary" size={32} />
+
             <div className="h-[2px] w-24 bg-gradient-to-l from-transparent via-primary to-primary" />
           </div>
 
@@ -202,11 +207,11 @@ const Articles = () => {
           </h1>
 
           <div className="flex items-center justify-center gap-3 mb-8">
-
+            
             <p className="family-body text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
               مقالات وأخبار عن تاريخ العائلة وأحداثها ومناسباتها
             </p>
-          
+            
           </div>
 
           {/* Ornamental Bottom Border */}
@@ -220,7 +225,9 @@ const Articles = () => {
         <div className="absolute top-40 left-4 opacity-5">
           <BookOpen size={120} className="text-primary animate-pulse" />
         </div>
-      
+        <div className="absolute bottom-40 right-4 opacity-5">
+          <Feather size={120} className="text-primary animate-pulse" style={{ animationDelay: '1s' }} />
+        </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
