@@ -10,17 +10,18 @@ import {
   Search,
   TreePine,
   ScrollText,
-  Heart,BookOpen
+  Heart,BookOpen,Download
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import logo from "../assets/gallery/logo1-bedady.png";
-
+// import logo from "../assets/gallery/logo1-bedady.png";
+import logo from '@/assets/gallery/logo1-bedady.png';
+import { usePWAInstall } from '@/hooks/use-pwa-install';
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-
+const {isInstallable,isInstalled,promptInstall} = usePWAInstall();
   const navItems = [
     { name: "الصفحة الرئيسية", href: "/", icon: Home, isRoute: true },
     { name: "المشجر", href: "/family-tree", icon: TreePine, isRoute: true },
@@ -80,6 +81,18 @@ const Navigation = () => {
                 )
               )}
             </div>
+
+       {/* Install Button - Desktop */}
+            {isInstallable && !isInstalled && (
+              <Button
+                onClick={promptInstall}
+                size="sm"
+                className="gap-2 bg-primary hover:bg-primary/90"
+              >
+                <Download size={16} />
+                تثبيت التطبيق
+              </Button>
+            )}
             <ThemeToggle />
           </div>
 
@@ -128,6 +141,19 @@ const Navigation = () => {
                   {item.name}
                 </a>
               )
+            )}
+ {/* Install Button - Mobile */}
+            {isInstallable && !isInstalled && (
+              <Button
+                onClick={() => {
+                  promptInstall();
+                  setIsOpen(false);
+                }}
+                className="w-full mt-2 gap-2 bg-primary hover:bg-primary/90"
+              >
+                <Download size={18} />
+                تثبيت التطبيق
+              </Button>
             )}
           </div>
         </div>

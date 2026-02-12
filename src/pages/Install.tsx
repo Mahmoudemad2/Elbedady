@@ -68,7 +68,7 @@ const Install = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background" dir="rtl">
+    <div className="min-h-screen bg-background pt-32 pb-20" dir="rtl">
       <Navigation />
       
       <div className="container mx-auto px-4 py-12">

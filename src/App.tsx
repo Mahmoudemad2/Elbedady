@@ -14,6 +14,7 @@ import FamilyGallery from './components/FamilyGallery'
 import SuccessMessage from "./pages/SuccessMessage";
 import Articles from "./pages/article";
 import Install from "./pages/Install";
+import InstallPrompt from "./components/InstallPrompt";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -21,6 +22,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      < InstallPrompt />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
