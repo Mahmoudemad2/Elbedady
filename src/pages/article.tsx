@@ -155,7 +155,7 @@ const Articles = () => {
       date: "15 يناير 2022",
       category: "  مقال حول المنتسبين",
       icon: Crown,
-      image: "/src/assets/article2.jpeg",
+      image: "src/assets/article2.jpeg",
     },
 
 
@@ -250,7 +250,7 @@ const Articles = () => {
       date: "18 يناير 2025",
       category: " رسالة المنصة",
       icon: Feather,
-      image: "/src/assets/article3.jpeg",
+      image: "src/assets/article3.jpeg",
     },
 
 
@@ -273,7 +273,7 @@ const Articles = () => {
       date: "4 فبراير 2026",
       category: "رؤية مستقبلية",
       icon: Feather,
-      image: "/src/assets/rticle5.jpeg",
+      image: "src/assets/rticle5.jpeg",
     },
 
 
@@ -310,7 +310,7 @@ const Articles = () => {
       date: "2 فبراير 2025",
       category: "مقالات اجتماعية ",
       icon: Feather,
-      image: "/src/assets/rticle6.jpeg",
+      image: "src/assets/rticle6.jpeg",
     },
 
 
