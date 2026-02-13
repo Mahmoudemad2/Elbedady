@@ -62,7 +62,7 @@ const Articles = () => {
       date: "20 يناير 2024",
       category: "شخصيات",
       icon: User,
-      image: "src/assets/article1.jpeg",
+      image: "/src/assets/gallery/article1.jpeg",
     },
 
 
@@ -155,7 +155,7 @@ const Articles = () => {
       date: "15 يناير 2022",
       category: "  مقال حول المنتسبين",
       icon: Crown,
-      image: "src/assets/article2.jpeg",
+      image: "/src/assets/gallery/article2.jpeg",
     },
 
 
@@ -250,7 +250,7 @@ const Articles = () => {
       date: "18 يناير 2025",
       category: " رسالة المنصة",
       icon: Feather,
-      image: "src/assets/article3.jpeg",
+      image: "/src/assets/gallery/article3.jpeg",
     },
 
 
@@ -260,7 +260,7 @@ const Articles = () => {
 
 
     {
-      id: 5,
+      id: 4,
       title: "مستقبل العائلة والأجيال القادمة",
       excerpt: "رؤية مستقبلية للحفاظ على تراث العائلة وتعزيز الروابط بين أفرادها...",
       content: `في ظل التحولات المعاصرة، تسعى عائلة عرب عبد السميع للحفاظ على تراثها العريق مع مواكبة العصر الحديث.
@@ -273,12 +273,12 @@ const Articles = () => {
       date: "4 فبراير 2026",
       category: "رؤية مستقبلية",
       icon: Feather,
-      image: "src/assets/rticle5.jpeg",
+      image: "/src/assets/gallery/rticle5.jpeg",
     },
 
 
       {
-      id: 3,
+      id: 5,
       title: " حكاية منتسبين  ",
       excerpt: "                                                                    كثر الحديث عنها وأصبنا بالملل فقد انتشرت ظاهرة الانتساب للقبائل منذ فترة بحثا عن كسب احترام أو وضع اجتماعى مرموق !! على حسب ضيق     ...",
       content:` كثر الحديث عنها وأصبنا بالملل فقد انتشرت ظاهرة الانتساب للقبائل منذ فترة بحثا عن كسب احترام أو وضع اجتماعى مرموق !! "على حسب ضيق افقه" أو التخلى عن أصل معين أو اسم معين او هروبا من واقع قديم حان تغييره يتماشى مع وضعه المادى أو ربما عصر عاودت فيه العصبيات والالقاب والتخلى عن " فكرة اصل الفتى فعله ".. والوقوع فى حرمة خلط الأنساب.. وهل هناك من يساعدهم بالداخل لأجل مصالح شخصية أو المساهمة فى اضعاف وتشتيت طرف أخر داخل القبيلة او العائلة ..
@@ -310,7 +310,7 @@ const Articles = () => {
       date: "2 فبراير 2025",
       category: "مقالات اجتماعية ",
       icon: Feather,
-      image: "src/assets/rticle6.jpeg",
+      image: "/src/assets/gallery/rticle6.jpeg",
     },
 
 
