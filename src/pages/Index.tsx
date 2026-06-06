@@ -31,7 +31,7 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       {/* <FamilyHistory />          قد يتم استخدامها في المستقبل */}
-      <FamilyStages />
+      {/* <FamilyStages /> */}
       <BadadiaOrigins />
       <HanadiTribe />
       <BeniSuefHistory />
